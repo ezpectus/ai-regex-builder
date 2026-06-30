@@ -1,12 +1,12 @@
 #!/bin/bash
 set -e
 
-echo "══════════════════════════════════════════"
+echo "============================================"
 echo "  AI Regex Builder v1.3.0 - One-Click Start"
-echo "══════════════════════════════════════════"
+echo "============================================"
 echo
 
-# ── Step 1: Check Node.js ──
+# -- Step 1: Check Node.js --
 if ! command -v node &> /dev/null; then
     echo "[FAIL] Node.js is NOT installed."
     echo "Download Node.js 20+ from: https://nodejs.org/en/download"
@@ -22,7 +22,7 @@ fi
 
 echo "[OK]   Node.js $(node --version)"
 
-# ── Step 2: Check npm ──
+# -- Step 2: Check npm --
 if ! command -v npm &> /dev/null; then
     echo "[FAIL] npm is NOT installed. It comes with Node.js."
     exit 1
@@ -30,9 +30,9 @@ fi
 echo "[OK]   npm $(npm --version)"
 echo
 
-# ── Step 3: Install dependencies ──
+# -- Step 3: Install dependencies --
 if [ ! -d "node_modules" ]; then
-    echo "[INFO] First run — installing packages..."
+    echo "[INFO] First run - installing packages..."
     echo "       This may take 1-2 minutes. Please wait."
     echo
     npm install
@@ -42,7 +42,7 @@ else
     echo "[OK]   Dependencies already installed."
 fi
 
-# ── Step 4: Create .env from template ──
+# -- Step 4: Create .env from template --
 if [ ! -f ".env" ] && [ -f ".env.example" ]; then
     cp .env.example .env
     echo "[OK]   Created .env from .env.example"
@@ -50,7 +50,7 @@ else
     echo "[OK]   .env already exists"
 fi
 
-# ── Step 5: Quick health check ──
+# -- Step 5: Quick health check --
 echo
 echo "[INFO] Running quick checks..."
 if npm run lint > /dev/null 2>&1; then
@@ -60,10 +60,10 @@ else
 fi
 echo
 
-# ── Step 6: Start dev server ──
-echo "══════════════════════════════════════════"
+# -- Step 6: Start dev server --
+echo "============================================"
 echo "  All ready! Starting development server..."
-echo "══════════════════════════════════════════"
+echo "============================================"
 echo
 echo "  URL:  http://localhost:5173"
 echo "  Stop: Press Ctrl+C"

@@ -5,10 +5,7 @@
 ![Node](https://img.shields.io/badge/node-%3E%3D20-green.svg)
 ![Tests](https://img.shields.io/badge/tests-67%20passed-brightgreen.svg)
 
-<!-- Screenshot placeholder — replace with actual screenshot -->
 ![AI Regex Builder UI](docs/screenshots/ui-main-dark.png)
-
-> _Screenshot: Add `docs/screenshots/ui-main-dark.png` to replace this placeholder._
 
 Generate regular expressions from natural language descriptions. Test, explain, and export regex patterns instantly.
 

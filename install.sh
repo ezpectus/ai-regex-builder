@@ -1,9 +1,9 @@
 #!/bin/bash
 set -e
 
-echo "══════════════════════════════════════════"
+echo "============================================"
 echo "  AI Regex Builder v1.3.0 - Full Setup"
-echo "══════════════════════════════════════════"
+echo "============================================"
 echo
 echo "This script will:"
 echo "  1. Check Node.js 20+"
@@ -16,7 +16,7 @@ echo
 read -p "Press Enter to start..." < /dev/tty
 echo
 
-# ── Step 1: Check Node.js version ──
+# -- Step 1: Check Node.js version --
 echo "[1/6] Checking Node.js..."
 if ! command -v node &> /dev/null; then
     echo "[FAIL] Node.js is NOT installed."
@@ -33,7 +33,7 @@ fi
 echo "[OK]   Node.js $(node --version)"
 echo
 
-# ── Step 2: Install dependencies ──
+# -- Step 2: Install dependencies --
 echo "[2/6] Installing npm packages..."
 echo "      This may take 1-2 minutes..."
 echo
@@ -42,7 +42,7 @@ echo
 echo "[OK]   All packages installed."
 echo
 
-# ── Step 3: Create .env ──
+# -- Step 3: Create .env --
 echo "[3/6] Setting up environment..."
 if [ ! -f ".env" ] && [ -f ".env.example" ]; then
     cp .env.example .env
@@ -52,7 +52,7 @@ else
 fi
 echo
 
-# ── Step 4: Run tests ──
+# -- Step 4: Run tests --
 echo "[4/6] Running tests (67 tests)..."
 echo
 npm test
@@ -60,22 +60,22 @@ echo
 echo "[OK]   All tests passed."
 echo
 
-# ── Step 5: Run linter ──
+# -- Step 5: Run linter --
 echo "[5/6] Running linter..."
 npm run lint || echo "[WARN] Lint issues found (non-blocking for setup)"
 echo
 
-# ── Step 6: Build production bundle ──
+# -- Step 6: Build production bundle --
 echo "[6/6] Building production bundle..."
 npm run build
 echo
-echo "[OK]   Build successful — output in dist/"
+echo "[OK]   Build successful - output in dist/"
 echo
 
-# ── Done ──
-echo "══════════════════════════════════════════"
+# -- Done --
+echo "============================================"
 echo "  Setup Complete!"
-echo "══════════════════════════════════════════"
+echo "============================================"
 echo
 echo "What was installed:"
 echo "  - npm packages (node_modules/)"
