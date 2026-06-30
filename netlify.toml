@@ -32,6 +32,76 @@
     Cache-Control = "public, max-age=86400"
 
 [[redirects]]
+  from = "/contact"
+  to = "/index.html"
+  status = 302
+
+[[redirects]]
+  from = "/contact-us"
+  to = "/index.html"
+  status = 302
+
+[[redirects]]
+  from = "/contacto"
+  to = "/index.html"
+  status = 302
+
+[[redirects]]
+  from = "/about"
+  to = "/index.html"
+  status = 302
+
+[[redirects]]
+  from = "/about-us"
+  to = "/index.html"
+  status = 302
+
+[[redirects]]
+  from = "/help"
+  to = "/index.html"
+  status = 302
+
+[[redirects]]
+  from = "/support"
+  to = "/index.html"
+  status = 302
+
+[[redirects]]
+  from = "/pricing"
+  to = "/index.html"
+  status = 302
+
+[[redirects]]
+  from = "/team"
+  to = "/index.html"
+  status = 302
+
+[[redirects]]
+  from = "/privacy"
+  to = "/index.html"
+  status = 302
+
+[[redirects]]
+  from = "/terms"
+  to = "/index.html"
+  status = 302
+
+[[redirects]]
+  from = "/legal"
+  to = "/index.html"
+  status = 302
+
+[[redirects]]
+  from = "/company"
+  to = "/index.html"
+  status = 302
+
+[[redirects]]
+  from = "/sitemap.xml"
+  to = "/sitemap.xml"
+  status = 200
+
+[[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
