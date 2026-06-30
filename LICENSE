@@ -1,0 +1,44 @@
+Copyright (c) 2026 AI Regex Builder. All Rights Reserved.
+
+PROPRIETARY LICENSE
+
+This software and its associated documentation files (the "Software") are the
+proprietary and confidential property of the copyright holder. No part of the
+Software may be reproduced, distributed, or transmitted in any form or by any
+means, including photocopying, recording, or other electronic or mechanical
+methods, without the prior express written permission of the copyright holder.
+
+RESTRICTIONS
+
+1. You may NOT distribute, sublicense, or sell copies of the Software.
+2. You may NOT modify, adapt, or create derivative works of the Software for
+   commercial purposes without written permission.
+3. You may NOT reverse engineer, decompile, or disassemble the Software.
+4. You may NOT use the Software for any commercial purpose without a valid
+   license agreement.
+5. You may NOT remove or alter any copyright notices or proprietary markings
+   from the Software.
+
+PERMITTED USE
+
+1. You may use the Software for personal, non-commercial purposes.
+2. You may fork and modify the Software for your own personal use.
+3. You may submit contributions via pull request, which if accepted become
+   the property of the copyright holder.
+
+NO WARRANTY
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+NO FINANCIAL ADVICE
+
+Any business projections, revenue estimates, or pricing information included
+in this project's documentation are provided for informational purposes only
+and do not constitute financial advice. Always consult with a qualified
+financial advisor before making business or investment decisions.

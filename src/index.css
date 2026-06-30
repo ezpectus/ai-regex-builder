@@ -1,0 +1,166 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+
+  body {
+    @apply bg-light-bg text-light-text;
+  }
+
+  .dark body {
+    @apply bg-dark-bg text-dark-text;
+  }
+
+  * {
+    @apply transition-colors duration-200;
+  }
+}
+
+@layer components {
+  .surface {
+    @apply bg-light-surface border border-light-border rounded-xl shadow-md;
+  }
+
+  .dark .surface {
+    @apply bg-dark-surface border-dark-border shadow-none;
+  }
+
+  .surface-hover {
+    @apply hover:shadow-lg hover:border-light-accent/40 transition-all duration-200;
+  }
+
+  .dark .surface-hover {
+    @apply hover:border-accent/30;
+  }
+
+  .btn {
+    @apply inline-flex items-center gap-2 px-4 py-2 rounded-lg font-medium text-sm
+           border border-light-border bg-light-surface text-light-text shadow-sm
+           hover:bg-light-bg hover:border-light-muted transition-all duration-150 active:scale-95;
+  }
+
+  .dark .btn {
+    @apply border-dark-border bg-dark-surface text-dark-text hover:bg-dark-bg;
+  }
+
+  .btn-primary {
+    @apply bg-light-accent text-white border-transparent hover:opacity-90 shadow-sm;
+  }
+
+  .dark .btn-primary {
+    @apply bg-accent text-white border-transparent hover:bg-accent-hover shadow-lg shadow-accent/20;
+  }
+
+  .btn-icon {
+    @apply p-2 rounded-lg border border-transparent hover:bg-light-bg;
+  }
+
+  .dark .btn-icon {
+    @apply hover:bg-dark-bg;
+  }
+
+  .input-field {
+    @apply w-full px-4 py-3 rounded-lg border border-light-border bg-light-bg text-light-text
+           focus:outline-none focus:ring-2 focus:ring-light-accent focus:border-transparent
+           placeholder:text-light-muted;
+  }
+
+  .dark .input-field {
+    @apply border-dark-border bg-dark-bg text-dark-text
+           focus:ring-accent placeholder:text-dark-muted;
+  }
+
+  .section-title {
+    @apply text-xs font-semibold uppercase tracking-wider text-light-muted mb-3;
+  }
+
+  .dark .section-title {
+    @apply text-dark-muted;
+  }
+
+  .checkbox-label {
+    @apply inline-flex items-center gap-2 px-3 py-1.5 rounded-lg border border-light-border
+           bg-light-surface text-sm cursor-pointer hover:bg-light-bg transition-all;
+  }
+
+  .dark .checkbox-label {
+    @apply border-dark-border bg-dark-surface hover:bg-dark-bg;
+  }
+
+  .checkbox-label-checked {
+    @apply border-light-accent bg-light-accent/10 text-light-accent;
+  }
+
+  .dark .checkbox-label-checked {
+    @apply border-accent bg-accent/10 text-accent;
+  }
+
+  .match-badge {
+    @apply inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs font-bold;
+  }
+
+  .empty-state {
+    @apply flex flex-col items-center justify-center py-8 px-4 text-center;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-light-border rounded-full;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  @apply bg-dark-border;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-light-muted;
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  @apply bg-dark-muted;
+}
+
+/* Match highlight in test results */
+.match-highlight {
+  @apply rounded px-0.5;
+  background-color: rgba(255, 211, 61, 0.25);
+  border-bottom: 2px solid #ffd33d;
+  color: inherit;
+}
+
+.dark .match-highlight {
+  background-color: rgba(255, 211, 61, 0.2);
+  color: #ffd33d;
+}
+
+/* Code font */
+.font-mono {
+  font-family: 'JetBrains Mono', 'Fira Code', Consolas, monospace;
+}
+
+/* Gradient text for header */
+.gradient-text {
+  background: linear-gradient(135deg, #58a6ff 0%, #79b8ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Subtle glow for primary button in dark mode */
+.dark .btn-primary {
+  box-shadow: 0 0 20px rgba(88, 166, 255, 0.15);
+}
