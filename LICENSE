@@ -1,4 +1,4 @@
-Copyright (c) 2026 AI Regex Builder. All Rights Reserved.
+Copyright (c) 2026 Ezpectus. All Rights Reserved.
 
 PROPRIETARY LICENSE
 
@@ -22,7 +22,9 @@ RESTRICTIONS
 PERMITTED USE
 
 1. You may use the Software for personal, non-commercial purposes.
-2. You may fork and modify the Software for your own personal use.
+2. You may fork the repository on GitHub for personal use and contribution
+   purposes, but may NOT distribute or publish the forked code beyond your
+   personal GitHub account.
 3. You may submit contributions via pull request, which if accepted become
    the property of the copyright holder.
 
@@ -33,8 +35,8 @@ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+INTERACTION WITH THE SOFTWARE.
 
 NO FINANCIAL ADVICE
 

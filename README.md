@@ -1,8 +1,9 @@
 # AI Regex Builder
 
-![CI](https://github.com/yourusername/ai-regex-builder/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/Ezpectus/ai-regex-builder/actions/workflows/ci.yml/badge.svg)
 ![License](https://img.shields.io/badge/license-Proprietary-blue.svg)
-![Vercel](https://img.shields.io/badge/deploy-Vercel-black.svg)
+![Node](https://img.shields.io/badge/node-%3E%3D20-green.svg)
+![Tests](https://img.shields.io/badge/tests-67%20passed-brightgreen.svg)
 
 <!-- Screenshot placeholder — replace with actual screenshot -->
 ![AI Regex Builder UI](docs/screenshots/ui-main-dark.png)
@@ -310,4 +311,4 @@ See [CHANGELOG.md](./docs/CHANGELOG.md) for version history.
 
 ## License
 
-Proprietary. All Rights Reserved. See [LICENSE](./LICENSE).
+Proprietary. Copyright (c) 2026 Ezpectus. All Rights Reserved. See [LICENSE](./LICENSE).

@@ -231,7 +231,7 @@ export default function App() {
               <Settings size={18} />
             </button>
             <a
-              href="https://github.com"
+              href="https://github.com/Ezpectus/ai-regex-builder"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-icon"

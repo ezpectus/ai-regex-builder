@@ -121,4 +121,4 @@ src/
 
 ## License
 
-Proprietary. All rights reserved. See [LICENSE](./LICENSE).
+Proprietary. Copyright (c) 2026 Ezpectus. All rights reserved. See [LICENSE](./LICENSE).
